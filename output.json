@@ -1,0 +1,212 @@
+[
+    {
+        "code": " CS 151",
+        "subject": " Object-Oriented Programming",
+        "time": " 4"
+    },
+    {
+        "code": " CS 125",
+        "subject": " Digital Design",
+        "time": " 4"
+    },
+    {
+        "code": " CS 1180",
+        "subject": " Computer Science Ethics",
+        "time": " 2"
+    },
+    {
+        "code": " STA 111",
+        "subject": " Introduction to Probability & Statistics",
+        "time": " 3"
+    },
+    {
+        "code": " CS 252",
+        "subject": " Data Structures",
+        "time": " 4"
+    },
+    {
+        "code": " CS 205",
+        "subject": " Discrete Structures 2",
+        "time": " 3"
+    },
+    {
+        "code": " PHY 1103",
+        "subject": " General Physics",
+        "time": " 3"
+    },
+    {
+        "code": " ENG 141",
+        "subject": " English 2",
+        "time": " 3"
+    },
+    {
+        "code": " CS 216",
+        "subject": " Design and Analysis of Algorithms",
+        "time": " 3"
+    },
+    {
+        "code": " CS 290",
+        "subject": " Software Engineering 1",
+        "time": " 3"
+    },
+    {
+        "code": " MATH 114",
+        "subject": " Applied Calculus 2",
+        "time": " 4"
+    },
+    {
+        "code": " CS 222",
+        "subject": " Operating Systems",
+        "time": " 4"
+    },
+    {
+        "code": " CS 392",
+        "subject": " Software Engineering 2",
+        "time": " 3"
+    },
+    {
+        "code": " MATH 227",
+        "subject": " Linear Algebra and Differential Equations",
+        "time": " 4"
+    },
+    {
+        "code": " CS 330",
+        "subject": " Computer Networks",
+        "time": " 4"
+    },
+    {
+        "code": " CS 361",
+        "subject": " Artificial Intelligence",
+        "time": " 4"
+    },
+    {
+        "code": " CS 370",
+        "subject": " Introduction to Databases",
+        "time": " 3"
+    },
+    {
+        "code": " CS 334",
+        "subject": " Information Security",
+        "time": " 4"
+    },
+    {
+        "code": " CS 427",
+        "subject": " Distributed Systems",
+        "time": " 3"
+    },
+    {
+        "code": " CS 383",
+        "subject": " Professional Development Seminar",
+        "time": " 2"
+    },
+    {
+        "code": " CS 495",
+        "subject": " Graduation Project 1",
+        "time": " 2"
+    },
+    {
+        "code": " CS 351",
+        "subject": " Human Computer Interaction",
+        "time": " 3"
+    },
+    {
+        "code": " CS xxx",
+        "subject": " CS Elective Course",
+        "time": " 3"
+    },
+    {
+        "code": " CS xxx",
+        "subject": " CS Elective Course",
+        "time": " 3"
+    },
+    {
+        "code": " CS xxx",
+        "subject": " CS Elective Course",
+        "time": " 3"
+    },
+    {
+        "code": " CS xxx",
+        "subject": " CS Elective Course",
+        "time": " 3"
+    },
+    {
+        "code": " CS 497",
+        "subject": " Graduation Project 2",
+        "time": " 3"
+    },
+    {
+        "code": " CS 364",
+        "subject": " Machine Learning",
+        "time": " 3"
+    },
+    {
+        "code": " CS 365",
+        "subject": " Natural Language Processing",
+        "time": " 3"
+    },
+    {
+        "code": " CS 467",
+        "subject": " Optimization and Metaheuristics",
+        "time": " 3"
+    },
+    {
+        "code": " CS 464",
+        "subject": " Neural Networks and Deep Learning",
+        "time": " 3"
+    },
+    {
+        "code": " CS 346",
+        "subject": " Web Application Development",
+        "time": " 3"
+    },
+    {
+        "code": " CS 447",
+        "subject": " Mobile Application Development",
+        "time": " 3"
+    },
+    {
+        "code": " CS 458",
+        "subject": " Game Application Development",
+        "time": " 3"
+    },
+    {
+        "code": " CS 443",
+        "subject": " Selected Topics in Cyber Security and Networks",
+        "time": " 3"
+    },
+    {
+        "code": " CS 337",
+        "subject": " Network Security",
+        "time": " 3"
+    },
+    {
+        "code": " CS 442",
+        "subject": " Software Security",
+        "time": " 3"
+    },
+    {
+        "code": " CS 114",
+        "subject": " Discrete Structures 1",
+        "time": " 3"
+    },
+    {
+        "code": " CS 150",
+        "subject": " Introduction to Computer Programming",
+        "time": " 4"
+    },
+    {
+        "code": " MAT 1112",
+        "subject": " Applied Calculus 1",
+        "time": " 4"
+    },
+    {
+        "code": " ENG 1040",
+        "subject": " English 1",
+        "time": " 3"
+    },
+    {
+        "code": " PHY 104",
+        "subject": " Applied Physics",
+        "time": " 3"
+    }
+]
