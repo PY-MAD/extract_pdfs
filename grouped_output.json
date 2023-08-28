@@ -1,199 +1,127 @@
 [
     {
         "subject": [
-            " General Chemistry I",
-            " Intro. to Academic Discourse",
-            " Languge Foundation",
-            " Calculus I"
+            " Object-Oriented Programming",
+            " Digital Design",
+            " Computer Science Ethics",
+            " Introduction to Probability & Statistics"
         ],
         "code": [
-            " CHEM 101",
-            " ENGL 101",
-            " IAS 121",
-            " MATH 101"
+            " CS 151",
+            " CS 125",
+            " CS 1180",
+            " STA 111"
+        ],
+        "time": [
+            " 4",
+            " 4",
+            " 2",
+            " 3"
+        ]
+    },
+    {
+        "subject": [
+            " Data Structures",
+            " Discrete Structures 2",
+            " General Physics",
+            " English 2"
+        ],
+        "code": [
+            " CS 252",
+            " CS 205",
+            " PHY 1103",
+            " ENG 141"
         ],
         "time": [
             " 4",
             " 3",
-            " 2",
+            " 3",
+            " 3"
+        ]
+    },
+    {
+        "subject": [
+            " Design and Analysis of Algorithms",
+            " Software Engineering 1",
+            " Applied Calculus 2"
+        ],
+        "code": [
+            " CS 216",
+            " CS 290",
+            " MATH 114"
+        ],
+        "time": [
+            " 3",
+            " 3",
             " 4"
         ]
     },
     {
         "subject": [
-            " Calculus I",
-            " Intro. to Report Writing",
-            " Belief & Its Consequences",
-            " Intro. to Programm. In Python & C"
+            " Operating Systems",
+            " Software Engineering 2",
+            " Linear Algebra and Differential Equations"
         ],
         "code": [
-            " MATH 102",
-            " ENGL 102",
-            " IAS 111",
-            " ICS 104"
+            " CS 222",
+            " CS 392",
+            " MATH 227"
         ],
         "time": [
-            " 5",
+            " 4",
             " 3",
-            " 2",
-            " 3"
+            " 4"
         ]
     },
     {
         "subject": [
-            " Calculus II",
-            " Health and Physical Education I",
-            " General Physics II",
-            " Fundamentals of Thermo-fluids"
+            " Computer Networks",
+            " Artificial Intelligence",
+            " Introduction to Databases"
         ],
         "code": [
-            " MATH 102",
-            " PE 101",
-            " PHYS 102",
-            " AE 211"
+            " CS 330",
+            " CS 361",
+            " CS 370"
         ],
         "time": [
             " 4",
-            " 1",
             " 4",
             " 3"
         ]
     },
     {
         "subject": [
-            " Academic & Professional Comm.",
-            " Professional Ethics",
-            " Intro. to Data Science",
-            " Calculus III"
+            " Information Security",
+            " Distributed Systems",
+            " Professional Development Seminar"
         ],
         "code": [
-            " ENGL 214",
-            " IAS 212",
-            " ISE 291",
-            " MATH 201"
+            " CS 334",
+            " CS 427",
+            " CS 383"
         ],
         "time": [
+            " 4",
             " 3",
-            " 2",
-            " 3",
-            " 3"
-        ]
-    },
-    {
-        "subject": [
-            " Statics ...",
-            " Introduction to AE",
-            " Introduction AE Struct. & Mat",
-            " Intro. to Artificial Intelligence"
-        ],
-        "code": [
-            " CE 201",
-            " AE 221",
-            " AE 228",
-            " COE 292"
-        ],
-        "time": [
-            " 3",
-            " 3",
-            " 3",
-            " 3"
-        ]
-    },
-    {
-        "subject": [
-            " Intro. to Diff. Eq. & Linear Algebra",
-            " Dynamics .....",
-            " ME Drawing and Graphics",
-            " AE Vehicle Performance"
-        ],
-        "code": [
-            " MATH 208",
-            " ME 201",
-            " ME 210",
-            " AE 230"
-        ],
-        "time": [
-            " 3",
-            " 3",
-            " 3",
-            " 3"
-        ]
-    },
-    {
-        "subject": [
-            " AE Systems and Control",
-            " AE Numerical Methods Lab",
-            " Intro. to Numerical Computing",
-            " Engineering Elective"
-        ],
-        "code": [
-            " AE 313",
-            " AE 357",
-            " MATH 371",
-            " XXX xxx"
-        ],
-        "time": [
-            " 3",
-            " 1",
-            " 3",
-            " 3"
-        ]
-    },
-    {
-        "subject": [
-            " Fundamentals of AE Design",
-            " Gas Dynamics I",
-            " Flight Structure I",
-            " Aerodynamics I"
-        ],
-        "code": [
-            " AE 312",
-            " AE 325",
-            " AE 328",
-            " AE 333"
-        ],
-        "time": [
-            " 1",
-            " 3",
-            " 3",
-            " 3"
-        ]
-    },
-    {
-        "subject": [
-            " Business & Entrepreneurship",
-            " Islamic/Arabic Elective",
-            " Career Essentials",
-            " Senior Design"
-        ],
-        "code": [
-            " BUS 200",
-            " IAS xxx",
-            " CGS 392",
-            " AE 412"
-        ],
-        "time": [
-            " 3",
-            " 2",
-            " 1",
             " 2"
         ]
     },
     {
         "subject": [
-            " AE Lab.....",
-            " AE Elective I",
-            " AE Elective II",
-            " GS Elective"
+            " Graduation Project 1",
+            " Human Computer Interaction",
+            " CS Elective Course",
+            " CS Elective Course"
         ],
         "code": [
-            " AE 421",
-            " AE xxx",
-            " AE xxx",
-            " GS xxx"
+            " CS 495",
+            " CS 351",
+            " CS xxx",
+            " CS xxx"
         ],
         "time": [
-            " 1",
+            " 2",
             " 3",
             " 3",
             " 3"
@@ -201,18 +129,53 @@
     },
     {
         "subject": [
-            " Science Elective",
-            " Flight Propulsion I",
-            " Flight Dynamics I",
-            " Aerospace Vehicle Design"
+            " CS Elective Course",
+            " CS Elective Course",
+            " Graduation Project 2"
         ],
         "code": [
-            " XXX xxx",
-            " AE 422",
-            " AE 426",
-            " AE 427"
+            " CS xxx",
+            " CS xxx",
+            " CS 497"
         ],
         "time": [
+            " 3",
+            " 3",
+            " 3"
+        ]
+    },
+    {
+        "subject": [
+            " Machine Learning",
+            " Natural Language Processing",
+            " Optimization and Metaheuristics",
+            " Neural Networks and Deep Learning",
+            " Web Application Development",
+            " Mobile Application Development",
+            " Game Application Development",
+            " Selected Topics in Cyber Security and Networks",
+            " Network Security",
+            " Software Security"
+        ],
+        "code": [
+            " CS 364",
+            " CS 365",
+            " CS 467",
+            " CS 464",
+            " CS 346",
+            " CS 447",
+            " CS 458",
+            " CS 443",
+            " CS 337",
+            " CS 442"
+        ],
+        "time": [
+            " 3",
+            " 3",
+            " 3",
+            " 3",
+            " 3",
+            " 3",
             " 3",
             " 3",
             " 3",
@@ -221,19 +184,25 @@
     },
     {
         "subject": [
-            " Elective I",
-            " Elective II",
-            " Summer Training"
+            " Discrete Structures 1",
+            " Introduction to Computer Programming",
+            " Applied Calculus 1",
+            " English 1",
+            " Applied Physics"
         ],
         "code": [
-            " XXX xxx",
-            " XXX xxx",
-            " AE 399"
+            " CS 114",
+            " CS 150",
+            " MAT 1112",
+            " ENG 1040",
+            " PHY 104"
         ],
         "time": [
             " 3",
+            " 4",
+            " 4",
             " 3",
-            " 1"
+            " 3"
         ]
     }
 ]

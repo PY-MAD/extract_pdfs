@@ -1,5 +1,5 @@
 import pandas as pd
-from tabula import read_pdf
+# from tabula import read_pdf
 import tabula as tb
 import urllib3
 from bs4 import BeautifulSoup
@@ -8,8 +8,8 @@ import json
 
 
 
-filePDF = "Final_test.pdf"
-reader = read_pdf(filePDF ,stream=True, multiple_tables=True,encoding="UTF-8" )
+filePDF = "schedules-144510 (1).pdf"
+reader = tb.read_pdf(filePDF ,stream=True, multiple_tables=True,encoding="UTF-8" )
 # print(reader)
 ss = pd.concat(reader)
 print(ss)
@@ -109,6 +109,8 @@ rows = table.find_all('tr')
 grouped_data = []
 current_group = {'subject': [], 'code': [], 'time': []}
 
+
+in_one_table = [4 , 4, 3, 3 , 3, 3 , 4 , 3, 10 , 5]
 # Loop through the rows and process the cells
 for row in rows:
     cells = row.find_all('td')
@@ -130,15 +132,32 @@ for row in rows:
         current_group['code'].append(entry['code'])
         current_group['time'].append(entry['time'])
         
-        # Check if the current group has four entries, then start a new group
-        if len(current_group['subject']) == 4:
-            grouped_data.append(current_group)
-            current_group = {'subject': [], 'code': [], 'time': []}
+group_index = 0  # Keep track of the current index in the in_one_table array
+entry_index = 0  # Keep track of the current entry index within the group
+
+while entry_index < len(current_group['subject']):
+    # Determine the expected length for the current group
+    expected_length = in_one_table[group_index]
+    print(expected_length)
+    # Extract entries for the current group
+    group_entries = {
+    'subject': current_group['subject'][entry_index : entry_index + expected_length],
+    'code': current_group['code'][entry_index : entry_index + expected_length],
+    'time': current_group['time'][entry_index : entry_index + expected_length],
+    }
+
+    # Append the group entries to the grouped_data list
+    grouped_data.append(group_entries)
+
+    # Update indices
+    entry_index += expected_length
+    group_index += 1
 
 # If there are remaining entries in the last group, add it to the grouped data
 if current_group['subject']:
     grouped_data.append(current_group)
 
+grouped_data.pop()
 # Convert the grouped data to JSON
 json_data = json.dumps(grouped_data, indent=4)
 
